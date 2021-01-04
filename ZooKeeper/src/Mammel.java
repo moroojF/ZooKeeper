@@ -5,6 +5,10 @@ public class Mammel {
 	public Mammel() {
 		this.energyLevel = 100;
 	}
+	
+	public Mammel(int energyLevel) {
+		this.energyLevel = energyLevel;
+	}
 
 	public int displayEnergy() {
 		System.out.println("The Energy Level is: "+this.energyLevel);
